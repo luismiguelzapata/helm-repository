@@ -1,0 +1,5 @@
+apiVersion: v2
+name: helm-master
+description: HelmChartMaster
+type: application
+version: "1.0.1-SNAPSHOT"
