@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: "{{ .Values.essab }}-{{ .Values.name }}-{{ .Values.providername }}-{{ .Values.image.tag }}-settings-2"
+  name: "{{ .Values.essab }}-{{ .Values.name }}-{{ .Values.providername }}-{{ .Values.image.tag }}-settings-v3"
 data:
   settings.ini: |
     # possible values : production, development, staging, qa
