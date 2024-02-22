@@ -2,4 +2,4 @@ apiVersion: v2
 name: helm-master
 description: HelmChartMaster
 type: application
-version: "1.0.8-SNAPSHOT"
+version: "1.0.9"
