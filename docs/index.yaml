@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   helm-master:
   - apiVersion: v2
-    created: "2024-02-22T14:32:23.377652467+01:00"
+    created: "2024-02-22T16:16:52.78621532+01:00"
     description: HelmChartMaster
     digest: 2e0ad88e7287a762d9c9c05318504c8e41d462b456a95b2db933466492a1c6b7
     name: helm-master
@@ -11,7 +11,16 @@ entries:
     - helm-master-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v2
-    created: "2024-02-22T14:32:23.379906906+01:00"
+    created: "2024-02-22T16:16:52.783134665+01:00"
+    description: HelmChartMaster
+    digest: 3f80dfb7b9eca739ae34e2e8712e3f51a3132590347ca34209736f7c1d4d375e
+    name: helm-master
+    type: application
+    urls:
+    - helm-master-1.0.10-SNAPSHOT.tgz
+    version: 1.0.10-SNAPSHOT
+  - apiVersion: v2
+    created: "2024-02-22T16:16:52.788948156+01:00"
     description: HelmChartMaster
     digest: 39f5c21e136af040b74e9cd43c474190cdb37e8ffdcc3ab8be6fc8ee00d63887
     name: helm-master
@@ -20,7 +29,7 @@ entries:
     - helm-master-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v2
-    created: "2024-02-22T14:32:23.378734794+01:00"
+    created: "2024-02-22T16:16:52.787419361+01:00"
     description: HelmChartMaster
     digest: ebb20fa8f0f564d18453cf40008c99c35d8718b5687717969c0cb7d18680fa7a
     name: helm-master
@@ -28,4 +37,4 @@ entries:
     urls:
     - helm-master-1.0.8-SNAPSHOT.tgz
     version: 1.0.8-SNAPSHOT
-generated: "2024-02-22T14:32:23.375632508+01:00"
+generated: "2024-02-22T16:16:52.777919119+01:00"
