@@ -27,3 +27,18 @@ $ helm dependency build nginx-chart
 $ helm template nginx-chart nginx-chart
 $ helm package nginx-chart
 ```
+
+## For example
+
+In the root directory helm-repository
+Create .helmignore
+.git
+.git/
+----
+Create .git
+.git
+.git/
+---
+
+$helm package .; mv *.tgz docs
+$helm repo index
